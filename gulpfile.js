@@ -1,24 +1,14 @@
 const gulp = require('gulp')
-const scss = require('gulp-scss')
+const sass = require('gulp-sass')
 
-gulp.task('scss', () => {
-  return gulp.src('./src/sass/*.sass')
+gulp.task('scss', function () {
+  return gulp.src('./src/scss/*.scss')
   .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
   .pipe(gulp.dest('./src/css'));
 })
 
-gulp.task('sass_painel', () => {
-  return gulp.src('./painel/sass/*.sass')
-  .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-  .pipe(gulp.dest('./painel/css'));
-})
-
 gulp.task('watch', function () {
-  gulp.watch('./src/sass/*.sass', gulp.series('sass'));
-})
-
-gulp.task('watch_painel', function () {
-  gulp.watch('./painel/sass/*.sass', gulp.series('sass_painel'));
+  gulp.watch('./src/scss/*.scss', gulp.series('scss'));
 })
 
 gulp.task('default', () => {
