@@ -2,5 +2,7 @@
 @ Function to calculate the number in percents (%) of the grid.
 */
 @mixin percentsOfGrid($n) {  
-  width: calc(#{$n} * 100% / 12); 
+  flex-grow: 0;
+  flex-basis: calc(#{$n} * 100% / 12);
+  max-width: calc(#{$n} * 100% / 12); 
 }
