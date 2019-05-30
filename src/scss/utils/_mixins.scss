@@ -1,0 +1,6 @@
+/*
+@ Function to calculate the number in percents (%) of the grid.
+*/
+@mixin percentsOfGrid($n) {  
+  width: calc(#{$n} * 100% / 12); 
+}
