@@ -6,3 +6,7 @@
   flex-basis: calc(#{$n} * 100% / 12);
   max-width: calc(#{$n} * 100% / 12); 
 }
+
+@mixin spacing($n) {
+  padding: calc(#{$n} * 4px);
+}

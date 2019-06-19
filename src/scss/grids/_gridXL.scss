@@ -1,38 +1,38 @@
 @media (min-width: 1920px) {
-  .grid-xl-1 {
-    @include percentsOfGrid(1);
+  .grid.xl-1 {
+    @include percentsOfGrid(1); 
   }
-  .grid-xl-2 {
-    @include percentsOfGrid(2);
+  .grid.xl-2 {
+    @include percentsOfGrid(2); 
   }
-  .grid-xl-3 {
-    @include percentsOfGrid(3);
+  .grid.xl-3 {
+    @include percentsOfGrid(3); 
   }
-  .grid-xl-4 {
-    @include percentsOfGrid(4);
+  .grid.xl-4 {
+    @include percentsOfGrid(4); 
   }
-  .grid-xl-5 {
-    @include percentsOfGrid(5);
+  .grid.xl-5 {
+    @include percentsOfGrid(5); 
   }
-  .grid-xl-6 {
-    @include percentsOfGrid(6);
+  .grid.xl-6 {
+    @include percentsOfGrid(6); 
   }
-  .grid-xl-7 {
-    @include percentsOfGrid(7);
+  .grid.xl-7 {
+    @include percentsOfGrid(7); 
   }
-  .grid-xl-8 {
-    @include percentsOfGrid(8);
+  .grid.xl-8 {
+    @include percentsOfGrid(8); 
   }
-  .grid-xl-9 {
-    @include percentsOfGrid(9);
+  .grid.xl-9 {
+    @include percentsOfGrid(9); 
   }
-  .grid-xl-10 {
-    @include percentsOfGrid(10);
+  .grid.xl-10 {
+    @include percentsOfGrid(10); 
   }
-  .grid-xl-11 {
-    @include percentsOfGrid(11);
+  .grid.xl-11 {
+    @include percentsOfGrid(11); 
   }
-  .grid-xl-12 {
-    @include percentsOfGrid(12);
+  .grid.xl-12 {
+    @include percentsOfGrid(12); 
   }
 }
